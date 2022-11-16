@@ -30,6 +30,7 @@ export default function Chain({ chain, buttonOnly }) {
   const account = useAccount((state) => state.account);
   const setAccount = useAccount((state) => state.setAccount);
 
+
   const router = useRouter();
 
   useEffect(() => {

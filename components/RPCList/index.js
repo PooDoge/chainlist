@@ -10,6 +10,8 @@ import { useTranslations } from "next-intl";
 export default function RPCList({ chain }) {
   const chains = useRPCData(chain.rpc);
 
+  
+
   const data = useMemo(() => {
     const sortedData = chains?.sort((a, b) => {
       if (a.isLoading) {
@@ -96,9 +98,9 @@ export default function RPCList({ chain }) {
         <thead>
           <tr>
             <th>RPC Server Address</th>
-            <th>Height</th>
-            <th>Latency</th>
-            <th>Score</th>
+            <th>Block #</th>
+            <th>Ping</th>
+            <th>Rating</th>
             <th></th>
           </tr>
         </thead>

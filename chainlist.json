@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Dogechain Mainnet",
+    "chain": "DC",
+    "icon": "dogechain",
+    "rpc": [
+      "https://rpc-sg.dogechain.dog",
+      "https://rpc-us.dogechain.dog",
+      "https://rpc.dogechain.dog",
+      "https://rpc01-sg.dogechain.dog",
+      "https://rpc02-sg.dogechain.dog",
+      "https://rpc03-sg.dogechain.dog"
+    ],
+    "faucets": [],
+    "nativeCurrency": { "name": "Dogecoin", "symbol": "DOGE", "decimals": 18 },
+    "infoURL": "https://dogechain.dog",
+    "shortName": "dc",
+    "chainId": 2000,
+    "networkId": 2000,
+    "explorers": [
+      {
+        "name": "dogechain explorer",
+        "url": "https://explorer.dogechain.dog",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Dogechain Testnet",
+    "chain": "DC",
+    "icon": "dogechain",
+    "rpc": ["https://rpc-testnet.dogechain.dog"],
+    "faucets": ["https://faucet.dogechain.dog"],
+    "nativeCurrency": { "name": "Dogecoin", "symbol": "DOGE", "decimals": 18 },
+    "infoURL": "https://dogechain.dog",
+    "shortName": "dct",
+    "chainId": 568,
+    "networkId": 568,
+    "explorers": [
+      {
+        "name": "dogechain testnet explorer",
+        "url": "https://explorer-testnet.dogechain.dog",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Muuchain Mainnet",
+    "chain": "MUU",
+    "icon": "muuchain",
+    "rpc": ["https://mainnet-rpc.muuchain.com/"],
+    "faucets": [],
+    "nativeCurrency": { "name": "Muu", "symbol": "MUU", "decimals": 18 },
+    "infoURL": "https://muuchain.com",
+    "shortName": "muu",
+    "chainId": 20402,
+    "networkId": 20402,
+    "explorers": [
+      {
+        "name": "muuchain explorer",
+        "url": "https://explorer.muuchain.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+]

@@ -25,20 +25,7 @@ export default function Layout({ changeTheme, theme, children }) {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div
-          className={
-            theme.palette.type === "dark"
-              ? classes.containerDark
-              : classes.container
-          }
-        >
-          <div
-            className={
-              theme.palette.type === "dark"
-                ? classes.listContainerDark
-                : classes.listContainer
-            }
-          >
+
             <Header changeTheme={changeTheme} />
             {children}
           </div>

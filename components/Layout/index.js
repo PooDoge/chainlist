@@ -32,6 +32,12 @@ export default function Layout({ changeTheme, theme, children }) {
               : classes.container
           }
         >
+          <div className={classes.copyContainer}>
+            <div className={classes.copyCentered}>
+
+
+            </div>
+          </div>
           <div
             className={
               theme.palette.type === "dark"

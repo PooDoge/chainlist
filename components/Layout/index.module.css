@@ -15,7 +15,7 @@
 
 .copyContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: sticky;
   justify-content: center;
   align-items: center;
